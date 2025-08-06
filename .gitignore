@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Python Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Environment variables
+# Never commit secrets, tokens, or API keys
+.env
+*.env
+.env.*
+
+# Application-specific artifacts from app.py
+# Directories for data, models, reports, and the model registry
+/data/
+/models/
+/reports/
+/model_registry/
+
+# SQLite database
+/mlops.db
+/mlops.db-journal
+
+# MLflow and Optuna artifacts
+/mlruns/
+*.db
+.mlflow-skinny-init-lock
+optuna-journal.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE configuration
+.idea/
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
