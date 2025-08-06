@@ -1,14 +1,4 @@
----
-title: End-to-End Automated MLOps Framework
-colorFrom: gray
-colorTo: gray
-sdk: gradio
-sdk_version: 5.41.1
-app_file: app.py
-pinned: false
-license: mit
-short_description: End-to-End Automated MLOps Framework
----
+Live Demo: https://huggingface.co/spaces/SpencerCPurdy/End-to-End_Automated_MLOps_Framework
 
 # End-to-End Automated MLOps Framework
 
